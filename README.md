@@ -1,5 +1,5 @@
 # Introduction
-This repository hosts code that automates the download, ingestion, and analysis from Colorado's state demographer's office (SDO). 
+This repository hosts code that automates the download, ingestion, and analysis Housing data relevant to AIA Colorado's Housing committee. This includes data from state demographer's office (SDO) and the US Census Bureau.
 
 # Important Links
 
