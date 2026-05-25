@@ -7,7 +7,7 @@
 
 # Initialization ---------------------------------------------------------------
 # Source the init file with libraries and packages
-source(file = "~/sdo_housing_analysis/00_init.R")
+source(file = "~/colorado_housing_analysis/00_init.R")
 
 # tidycensus inputs
 api_path <- read_file(glue("~/R/docs/api_census_key.txt"))

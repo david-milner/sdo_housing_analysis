@@ -7,12 +7,12 @@
 
 # Initialization ---------------------------------------------------------------
 # Source the init file with libraries and packages
-source(file = "~/sdo_housing_analysis/00_init.R")
+source(file = "~/colorado_housing_analysis/00_init.R")
 
 
 # Load ZHVI Data ---------------------------------------------------------------
 raw_zhvi <- read.csv(
-  file = glue("~/sdo_housing_analysis/source_data/zillow/\\
+  file = glue("~/colorado_housing_analysis/source_data/zillow/\\
               County_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month_clean.csv"))
 
 
