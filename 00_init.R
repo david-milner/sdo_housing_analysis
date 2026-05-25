@@ -1,6 +1,9 @@
 # Introduction -----------------------------------------------------------------
-# This script will be used to clean Ammerican Community Survey data and to 
-# spatialize data from Colorado's State Demographer's Office (SDO)
+# Created on: 2026/05/24
+# Author: David Milner
+# R Version: 4.0.0
+# Description: This script will be used to clean Ammerican Community Survey data
+# and to spatialize data from Colorado's State Demographer's Office (SDO)
 
 
 # Packages ---------------------------------------------------------------------
@@ -20,13 +23,15 @@ library(leaflet)
 library(janitor)
 library(jsonlite)
 library(purrr)
+library(tidycensus)
 
 select <- dplyr::select
 
 # Directories ------------------------------------------------------------------
 dirs <- list()
 dirs$base <- file.path("~/R/colorado_housing")
-
+dirs$rwd <- file.path("~/R/colorado_housing/rwd")
+dirs$outputs <- file.path("~/R/colorado_housing/outputs")
 
 # Global Options ---------------------------------------------------------------
 
