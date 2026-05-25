@@ -24,6 +24,7 @@ library(janitor)
 library(jsonlite)
 library(purrr)
 library(tidycensus)
+library(snakecase)
 
 select <- dplyr::select
 
